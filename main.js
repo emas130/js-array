@@ -4,10 +4,10 @@ var allNames = maleNames.concat(femalesNames);
 
 console.log(allNames);
 
-var newName = ['Marian'];
+var newName = 'Marian';
 
 if (allNames.indexOf(newName) === -1) {
-   allNames.push('Marian');
+   allNames.push(newName);
 }
 
 console.log(allNames);
